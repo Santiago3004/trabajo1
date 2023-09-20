@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Iniciar Sesión</title>
+</head>
+<header>
+
+    <img id="logo" src="logo.avif">
+
+    <nav class="mainbuttons">
+        <li class="mainbuttons1">
+            <a href=""><i class='bx bxs-cart'></i></i></a>
+        </li>
+
+        <li class="mainbuttons1">
+            <a href="login.html"><i class='bx bxs-user bx'></i></a>
+        </li>
+    </nav>
+
+    <strong><nav class="genderbuttons">
+        <li class="genderbuttons1">
+            <a href="" class="genderbuttons1">MUJER</a>
+        </li>
+
+        <li class="genderbuttons1">
+            <a>|</a>
+        </li>
+
+        <li class="genderbuttons1">
+           <a href="" class="genderbuttons1">HOMBRE</a>
+        </li>
+    </nav></strong>
+
+    <nav>
+    <li class="whatsapp">
+        <a href="" class="whatsapp">SOPORTE WHATSAPP:+57 3165041672</a>
+    </li>
+    </nav>
+
+    <div class="buscador">
+    <input class="buscar" type="search" placeholder="Buscar"><i class='bx bx-search-alt'></i>
+    </div>
+     
+</header>
+<body>
+    <div class="container-form sign-up">
+        <div class="welcome-back">
+            <div class="message">
+                <h1>Bienvenido de nuevo</h1>
+                <p>Si ya tienes una cuenta, inicia sesión aquí.</p>
+                <button class="sign-up-btn">Iniciar Sesión</button>
+            </div>
+        </div>
+        <form class="Formulario" id="form">
+            <h2 class="create-account">Crear cuenta</h2>
+            <div class="icons">
+                <div class="border-icon">
+                    <i class="bx bxl-instagram"></i>
+                </div>
+                <div class="border-icon">
+                    <i class="bx bxl-twitter"></i>
+                </div>
+                <div class="border-icon">
+                    <i class="bx bxl-facebook-circle"></i>
+                </div>
+            </div>
+            <p class="cuenta-gratis">Crear cuenta</p>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Usuario" required>
+            <input type="password" placeholder="Contraseña" required>
+            <input type="submit" value="Registrarse">
+            <p class="warnings" id="warnings"></p>
+        </form>
+    </div>
+    <div class="container-form sign-in">
+        <form class="Formulario" id="form">
+            <h2 class="create-account">Iniciar Sesión</h2>
+            <div class="icons">
+                <div class="border-icon">
+                    <i class="bx bxl-instagram"></i>
+                </div>
+                <div class="border-icon">
+                    <i class="bx bxl-twitter"></i>
+                </div>
+                <div class="border-icon">
+                    <i class="bx bxl-facebook-circle"></i>
+                </div>
+            </div>
+            <p class="cuenta-gratis">¿Aún no tienes una cuenta?</p>
+            <input type="email" placeholder="Usuario" required>
+            <input type="password" placeholder="Contraseña" required>
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+        <div class="welcome-back">
+            <div class="message">
+                <h1>Bienvenido de nuevo</h1>
+                <p>Si aún no tienes una cuenta, registrate aquí.</p>
+                <button class="sign-in-btn">Registrarse</button>
+                <p class="warnings" id="warnings"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>

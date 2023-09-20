@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+}
+header{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 110px;
+    background: rgba(255, 255, 255, 0.89);
+    background-size: 100%;
+}
+
+body{
+    background-color: rgba(115, 136, 198, 0.697);
+    height: 80px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    color: black;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.mainbuttons{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.mainbuttons1{
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.genderbuttons1{
+    /* display: inline-block; */
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    border: 5px 5px 5px solid;
+    text-decoration: none;
+    
+}
+#muj{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+}
+
+a{
+    list-style-type: none;
+
+}
+
+li{
+    list-style-type: none;
+}
+
+#m1{
+    position: absolute;
+    top: 60%;
+    right: 1%;
+}
+
+.despl1{
+    width: 200px;
+    background-color: pink;
+    border: black solid;
+    border-radius: 12px;
+}
+
+#ho{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+
+#ho1{
+    position: absolute;
+    right: 10%;
+    top: 60%;
+}
+
+.genderbuttons{
+    display: inline;
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    text-decoration: none;
+    justify-content: end;
+
+}
+.buscador{
+    position: absolute;
+    display: inline;
+    left: 120px;
+    top: 75px;
+    border-bottom: solid black;
+    width: 14.3%;
+    
+    
+
+}
+.buscar{
+    border: none;
+    box-shadow: none;
+    width: 87%;
+}
+
+.whatsapp{
+    position:absolute ;
+    left: 59px;
+    top: 5px;
+    width: 300px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.imagenes{
+    width: 100%;
+    height: 2000%;
+    padding-top: 100px;
+}
+
+.imagen1{
+    position: absolute;
+    width:40%;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+.titulocamisetas{
+    position: absolute;
+    left: 28%;
+    top: 25%;
+    z-index: 1;
+    font-size: 30px;
+    border: solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(164, 152, 118);
+}
+.botonimagen1{
+    position:absolute;
+    border: solid;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    padding: 2px;
+    top: 100%;
+    left: 17%;
+    z-index: 100;
+}
+
+.imagen2{
+    position: absolute;
+    width:51.9%;
+    padding-top: 35.9%;
+    right: 3%;
+}
+.titulochaquetas{
+    position: absolute;
+    right: 7%;
+    top: 91%;
+    z-index: 1;
+    font-size: 30px;
+    border: solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(164, 152, 118);
+}
+.botonchaquetas{
+    position:absolute;
+    border: solid;
+    font-size: 25px;
+    right: 20.5%;
+    top: 205%;
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    padding: 2px;
+}
+.zapatos{
+    position: absolute;
+    width:25%;
+    padding-top: 3%;
+    right: 3%;
+}
+.titulozapatos{
+    position: absolute;
+    right: 6%;
+    top: 25%;
+    z-index: 1;
+    font-size: 30px;
+    border: solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(164, 152, 118);
+}
+.botonzapatos{
+    position:absolute;
+    border: solid;
+    font-size: 25px;
+    right: 8%;
+    top: 70%;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    padding: 2px;
+}
+
+.jeans{
+    position: absolute;
+    width: 40%;
+    padding-top: 55%;
+    left: 3%;
+}
+
+.titulojeans{
+    position: absolute;
+    left: 29%;
+    top: 130%;
+    z-index: 1;
+    font-size: 30px;
+    border: solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(164, 152, 118);
+}
+.botonjeans{
+    position:absolute;
+    border: solid;
+    font-size: 25px;
+    left: 16.5%;
+    top: 205%;
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    padding: 2px;
+}
+
+.buso{
+    position: absolute;
+    width:25%;
+    top: 19.5%;
+    right: 30%;
+}
+
+.titulobusos{
+    position: absolute;
+    right: 32%;
+    top: 25%;
+    z-index: 1;
+    font-size: 30px;
+    border: solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(164, 152, 118);
+}
+.botonbusos{
+    position:absolute;
+    border: solid;
+    font-size: 25px;
+    top: 70%;
+    right: 34%;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    padding: 2px;
+}
+footer{
+    background-color: black;
+    padding: 30px;
+}
+
+
+.icon{
+    text-align: center;
+    height: 50px ;
+    font-size: 35px;
+    color: aliceblue;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@media (min-width: 1600px){
+    .buso{
+        position: absolute;
+        width:25%;
+        top: 16.6%;
+        right: 30%;
+    }
+
+    .imagenes{
+        width: 100%;
+        height: 2550%;
+        padding-top: 100px;
+    }
+    .imagen2{
+        position: absolute;
+        width:51.9%;
+        padding-top: 35.8%;
+        right: 3%;
+    }
+}
+@media (max-width: 1400px){
+    .buso{
+        top: 22.1%;
+    }
+    .titulojeans{
+        top: 140%;
+    }
+    .titulochaquetas{
+        top: 99%;
+    }
+    .imagenes{
+        width: 100%;
+        height: 1850%;
+        padding-top: 100px;
+    }
+}
